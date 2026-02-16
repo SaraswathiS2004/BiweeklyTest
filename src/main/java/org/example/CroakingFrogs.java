@@ -25,7 +25,7 @@ public class CroakingFrogs {
             else {
                 n--;
             }
-            if(n == 4){
+            if(n == 5){
                 numberOfCroaks++;
                 n= 0;
             }
@@ -33,17 +33,16 @@ public class CroakingFrogs {
         return numberOfCroaks;
     }
     public static boolean isCroak(char [] croaks , char word){
-
         for(int i = 0; i< croaks.length; i++){
             char c = croaks[i];
             if(c == word){
-                return true;
+               return true;
             }
         }
         return false;
     }
     public static void main(String[] args){
-        String croakOfFrogs = "croakcroak";
+        String croakOfFrogs = "croakcrook";
         System.out.println(findNumberOfFrogs(croakOfFrogs));
     }
 }
