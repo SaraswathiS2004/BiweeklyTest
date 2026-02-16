@@ -5,7 +5,7 @@ public class ShortestPalindrome {
     public static String findShortestPalindrome(String s){
 
         if(s.length() == 0){
-            return null;
+            return "";
         }
         int longestCommonPrefix = 0;
         String res = "";
