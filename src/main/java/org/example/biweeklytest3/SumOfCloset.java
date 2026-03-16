@@ -39,6 +39,6 @@ public class SumOfCloset {
         int [] arr2 = {0,0,0};
         int target2 = 1;
         System.out.println(findClosetNumber(arr1 , target1)); // output : 2
-        System.out.println(findClosetNumber(arr2 , target2));//putput : 0
+        System.out.println(findClosetNumber(arr2 , target2));//output : 0
     }
 }
