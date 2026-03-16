@@ -1,8 +1,6 @@
-package org.example;
+package org.example.biweeklytest3;
 
-import java.util.Arrays;
-
-public class MaxmumProfit {
+public class MaximumProfit {
 
     public static int findMaximumProfit(int [] prices){
         int profit = 0;

@@ -1,7 +1,5 @@
-package org.example;
+package org.example.biweeklytest3;
 
-
-import java.util.Arrays;
 
 public class SumOfCloset {
 

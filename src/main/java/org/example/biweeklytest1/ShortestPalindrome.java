@@ -1,4 +1,4 @@
-package org.example;
+package org.example.biweeklytest1;
 
 public class ShortestPalindrome {
 

@@ -1,6 +1,4 @@
-package org.example;
-
-import java.util.HashMap;
+package org.example.biweeklytest1;
 
 public class ReArrangeWordsInSentence {
 

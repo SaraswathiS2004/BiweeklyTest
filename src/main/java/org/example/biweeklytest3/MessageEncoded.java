@@ -1,4 +1,4 @@
-package org.example;
+package org.example.biweeklytest3;
 
 import java.util.Arrays;
 
@@ -8,7 +8,6 @@ public class MessageEncoded {
         int [] dp = new int[s.length() + 1];
         Arrays.fill(dp , -1);
        int n = findNumberOfPossible(s , 0 ,0 , dp);
-
        return n;
     }
     public static int findNumberOfPossible(String s , int index , int n , int [] dp){
@@ -30,6 +29,6 @@ public class MessageEncoded {
 
         String s = "226";
         int n = findNumberOfPossibledecoded(s);
-        System.out.println(n);
+        System.out.println(n); // output : 3
     }
 }
